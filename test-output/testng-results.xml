@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-11T15:06:26Z" name="calculator_v1" finished-at="2024-04-11T15:06:51Z" duration-ms="24592">
+    <groups>
+    </groups>
+    <test started-at="2024-04-11T15:06:26Z" name="CalculatorTest" finished-at="2024-04-11T15:06:51Z" duration-ms="24592">
+      <class name="net.calculator.testCases.TC_001_Calculation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:26Z" name="setup" finished-at="2024-04-11T15:06:41Z" duration-ms="15068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Calculation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:46Z" name="Calculation" data-provider="CalcInput" finished-at="2024-04-11T15:06:47Z" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[423]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[525]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculation -->
+        <test-method signature="Calculation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:47Z" name="Calculation" data-provider="CalcInput" finished-at="2024-04-11T15:06:48Z" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculation -->
+        <test-method signature="Calculation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:48Z" name="Calculation" data-provider="CalcInput" finished-at="2024-04-11T15:06:49Z" duration-ms="1311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-234234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculation -->
+        <test-method signature="Calculation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:49Z" name="Calculation" data-provider="CalcInput" finished-at="2024-04-11T15:06:50Z" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-23094823]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:net.calculator.testCases.TC_001_Calculation@78d6692f]" started-at="2024-04-11T15:06:50Z" name="tearDown" finished-at="2024-04-11T15:06:51Z" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.calculator.testCases.TC_001_Calculation -->
+    </test> <!-- CalculatorTest -->
+  </suite> <!-- calculator_v1 -->
+</testng-results>
